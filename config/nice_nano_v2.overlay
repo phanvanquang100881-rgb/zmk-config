@@ -9,7 +9,7 @@
         diode-direction = "col2row";
 
         col-gpios
-            = <&gpio1 11 GPIO_ACTIVE_HIGH> // Col 11 (D14)
+            = <&gpio1 11 GPIO_ACTIVE_HIGH> // Col 11 (D14) - Ngoài cùng bên trái
             , <&gpio0 10 GPIO_ACTIVE_HIGH> // Col 10 (D16)
             , <&gpio0  9 GPIO_ACTIVE_HIGH> // Col 9 (D10)
             , <&gpio1  7 GPIO_ACTIVE_HIGH> // Col 8 (P1.07)
@@ -20,13 +20,13 @@
             , <&gpio0 17 GPIO_ACTIVE_HIGH> // Col 3 (D2)
             , <&gpio1  2 GPIO_ACTIVE_HIGH> // Col 2 (P1.02)
             , <&gpio0  8 GPIO_ACTIVE_HIGH> // Col 1 (D0)
-            , <&gpio0  6 GPIO_ACTIVE_HIGH> // Col 0 (D1)
+            , <&gpio0  6 GPIO_ACTIVE_HIGH> // Col 0 (D1) - Ngoài cùng bên phải
             ;
 
         row-gpios
             = <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 0 (D7)
             , <&gpio1  4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 1 (D8)
-            , <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 2 (D15)
+            , <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 2 (D15) - Đã sửa cho hàng ZXCV
             , <&gpio1  1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 3 (P1.01)
             ;
     };
