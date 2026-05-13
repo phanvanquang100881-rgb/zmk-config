@@ -13,7 +13,7 @@
 // Hàng 2 (D9)
 &kp LSHFT &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
 // Hàng 3 (P1.01) - Chú ý đếm đủ 12 vị trí cột
-&kp LCTRL &kp LWIN &kp LALT &none &kp SPACE &none &none &kp SPACE &none &kp RALT &mo 1 &kp RCTRL
+&kp LCTRL &kp LWIN &kp LALT &none &kp SPACE &none &kp SPACE &mo 1 &none &kp RALT &none &kp RCTRL
             >;
         };
         
