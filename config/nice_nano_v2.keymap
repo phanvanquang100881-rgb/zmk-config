@@ -14,7 +14,7 @@
 // Hàng 2 (D15/Row 2): ZXCV
 &kp LSHFT &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
 // Hàng 3 (P1.01): Thumb Cluster - Đã khớp với sơ đồ hàn 8 phím thực tế của bạn
-&kp LCTRL &kp LWIN &kp LALT &kp SPACE &none &none &none &kp SPACE &none &mo 1 &kp RALT &kp RCTRL
+&kp LCTRL &kp LWIN &kp LALT &none &kp SPACE &none &kp SPACE &mo 1 &none &none &none &kp LALT
             >;
         };
 
