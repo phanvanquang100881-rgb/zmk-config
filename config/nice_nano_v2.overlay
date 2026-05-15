@@ -9,19 +9,19 @@
         diode-direction = "col2row";
 
      col-gpios
-       = <&gpio0  6 GPIO_ACTIVE_HIGH> // Col 0 (D1)
-       , <&gpio0  8 GPIO_ACTIVE_HIGH> // Col 1 (D0)
-       , <&gpio1  2 GPIO_ACTIVE_HIGH> // Col 2 (P1.02)
-       , <&gpio0 17 GPIO_ACTIVE_HIGH> // Col 3 (D2)
-       , <&gpio0 20 GPIO_ACTIVE_HIGH> // Col 4 (D3)
-       , <&gpio0 22 GPIO_ACTIVE_HIGH> // Col 5 (D4)
-       , <&gpio1 15 GPIO_ACTIVE_HIGH> // Col 6 (D18)
-       , <&gpio0  2 GPIO_ACTIVE_HIGH> // Col 7 (D19)
-       , <&gpio1  7 GPIO_ACTIVE_HIGH> // Col 8 (P1.07)
-       , <&gpio0 29 GPIO_ACTIVE_HIGH> // Col 9 (D20) - ĐÃ SỬA: D20 là GPIO 29
-       , <&gpio0 31 GPIO_ACTIVE_HIGH> // Col 10 (D21) - ĐÃ SỬA: D21 là GPIO 31
-       , <&gpio1 11 GPIO_ACTIVE_HIGH> // Col 11 (D14)
-       ;
+         = <&gpio0  6 GPIO_ACTIVE_HIGH> // Col 0 (D1)
+         , <&gpio0  8 GPIO_ACTIVE_HIGH> // Col 1 (D0)
+         , <&gpio1  2 GPIO_ACTIVE_HIGH> // Col 2 (P1.02)
+         , <&gpio0 17 GPIO_ACTIVE_HIGH> // Col 3 (D2)
+         , <&gpio0 20 GPIO_ACTIVE_HIGH> // Col 4 (D3) - ĐÃ SỬA LẠI CHO ĐÚNG D3
+         , <&gpio0 22 GPIO_ACTIVE_HIGH> // Col 5 (D4)
+         , <&gpio1 15 GPIO_ACTIVE_HIGH> // Col 6 (D18)
+         , <&gpio0  2 GPIO_ACTIVE_HIGH> // Col 7 (D19)
+         , <&gpio1  7 GPIO_ACTIVE_HIGH> // Col 8 (P1.07)
+         , <&gpio0 29 GPIO_ACTIVE_HIGH> // Col 9 (D20 là P0.29)
+         , <&gpio0 31 GPIO_ACTIVE_HIGH> // Col 10 (D21 là P0.31)
+         , <&gpio1 11 GPIO_ACTIVE_HIGH> // Col 11 (D14)
+         ;
 
         row-gpios
             = <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 0 (D7)
