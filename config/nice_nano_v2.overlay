@@ -18,8 +18,8 @@
             , <&gpio1 15 GPIO_ACTIVE_HIGH> // Col 6 (D18)
             , <&gpio0  2 GPIO_ACTIVE_HIGH> // Col 7 (D19)
             , <&gpio1  7 GPIO_ACTIVE_HIGH> // Col 8 (P1.07)
-            , <&gpio0  9 GPIO_ACTIVE_HIGH> // Col 9 (D10)
-            , <&gpio0 10 GPIO_ACTIVE_HIGH> // Col 10 (D16)
+            , <&gpio0  20 GPIO_ACTIVE_HIGH> // Col 9 (D20)
+            , <&gpio0 21 GPIO_ACTIVE_HIGH> // Col 10 (D21)
             , <&gpio1 11 GPIO_ACTIVE_HIGH> // Col 11 (D14) - Ngoài cùng bên trái
 
             ;
