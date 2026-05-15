@@ -27,7 +27,7 @@
         = <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 0 (D7)
         , <&gpio1  4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 1 (D8)
         , <&gpio0 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 2 (D15)
-        , <&gpio1  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 3 ← P1.06 (D9)
+        , <&gpio1  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 3 (D9)
         ;
       };
 };
