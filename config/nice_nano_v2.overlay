@@ -24,10 +24,10 @@
         ;
 
      row-gpios
-        = <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 0 (D7)
-        , <&gpio1  4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 1 (D8)
-        , <&gpio0 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 2 (D15)
-        , <&gpio1  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 3 (D9)
+        = <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 0 (D7  = P0.11)
+        , <&gpio1  4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 1 (D8  = P1.04)
+        , <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 2 (D15 = P1.13) ← sửa gpio0→gpio1
+        , <&gpio1  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 3 (D9  = P1.06)
         ;
       };
 };
