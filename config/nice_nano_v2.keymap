@@ -1,30 +1,31 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
+// ĐÃ XÓA THƯ VIỆN BLUETOOTH Ở ĐÂY
+
 / {
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-// Hàng 0 (D7): QWERTY
-&kp ESC   &kp Q  &kp W  &kp E  &kp R  &kp T    &kp Y  &kp U  &kp I      &kp O    &kp P     &kp BSPC
-// Hàng 1 (D8): ASDF
-&kp TAB   &kp A  &kp S  &kp D  &kp F  &kp G    &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-// Hàng 2 (D15/Row 2): ZXCV
-&kp LSHFT &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
-// Hàng 3 (P1.01): Thumb Cluster - Đã khớp với sơ đồ hàn 8 phím thực tế của bạn
-&kp LCTRL &kp LWIN &kp LALT &none &kp SPACE &none &kp SPACE &mo 1 &none &none &none &kp LALT
+            // Hàng 0 (D6)
+            &kp ESC    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSPC
+            // Hàng 1 (D7)
+            &kp TAB    &kp A      &kp S      &kp D      &kp F      &kp G      &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
+            // Hàng 2 (D8)
+            &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp ENTER
+            // Hàng 3 (D9)
+            &kp LCTRL  &kp LWIN   &kp LALT   &none      &kp SPACE  &none      &kp SPACE  &mo 1      &none      &none      &none      &kp LALT
             >;
         };
 
         fn_layer {
             bindings = <
-// Bluetooth: Clear bond (ESC), Select Profile 0, 1, 2
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &kp B &none  &none &kp F7 &kp F8 &kp F9 &kp F10 &kp DEL
-&none      &none        &none        &none        &none &none  &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
-&none      &none        &none        &none        &none &none  &none &none &none &none &none &none
-&none      &none        &none        &none        &none &none  &none &none &none &none &none &none
+            // ĐÃ XÓA CÁC LỆNH BLUETOOTH
+            &none      &none      &none      &none      &none      &kp B      &none      &none      &kp F7     &kp F8     &kp F9     &kp F10
+            &none      &none      &none      &none      &none      &none      &none      &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &none
+            &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
+            &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none
             >;
         };
     };
